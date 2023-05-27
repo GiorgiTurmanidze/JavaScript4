@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.list {
+    position: relative;
+    left: 40%;
+    top: 300px;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.list2 {
+    position: relative;
+    left: 40%;
+    top: 300px;
+    width: 300px;
+    display: flex;
+    justify-items: left;
+}
+.list2 ul, li{
+    position: relative;
+    padding-left: 0px;
+}
+.list2 ul li {
+    padding-left: 0px;
+    font-size: 18px;
+}
+.list input {
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid gray;
+    height: 20px;
+    margin-right: 10px;
+}
+.list button {
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.list button:hover {
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    transition: all 0.2s;
+}
